@@ -138,8 +138,8 @@ const Home = () => {
 
             // Gallery music player
             galleryPlayerRef.current = new window.YT.Player('gallery-yt-player', {
-                videoId: 'xK4ZqrLys_k',
-                playerVars: { autoplay: 0, loop: 1, playlist: 'xK4ZqrLys_k', controls: 0, mute: 1 },
+    videoId: 'nXjhSMWBE30',
+    playerVars: { autoplay: 0, loop: 1, playlist: 'nXjhSMWBE30', controls: 0, mute: 1 },
                 events: {
                     onReady: (e) => { e.target.setVolume(60); }
                 }
