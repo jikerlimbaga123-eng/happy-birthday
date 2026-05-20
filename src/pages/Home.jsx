@@ -277,7 +277,7 @@ const Home = () => {
                                 <div className="gift-icon">🎁</div>
                                 <p className="gift-label">{gift.label}</p>
                                 <p className="gift-desc">{gift.shortDesc}</p>
-                                <button className="gift-btn">Buksan ang Regalo</button>
+                                <button className="gift-btn">Open your Gift</button>
                             </div>
                         ))}
                     </div>
